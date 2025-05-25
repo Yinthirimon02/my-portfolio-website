@@ -17,6 +17,7 @@
   "homepage": "https://github.com/Yinthirimon02/my-portfolio-website#readme",
   "description": "",
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "font-awesome": "^4.7.0"
   }
 }
