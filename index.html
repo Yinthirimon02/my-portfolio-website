@@ -1,391 +1,623 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio Website</title>
-  <!-- bootstrap cdn -->
-  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-  <!-- font awesome cdn link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-<body class="bg-light">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand text-danger" href="#">My Portfolio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active text-danger" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-danger" aria-current="page" href="#">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-danger" aria-current="page" href="#">Project</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-danger" aria-current="page" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <div class="container-lg mt-5 px-5">
-    <div class="row min-vh-100 align-items-center align-content-center">
-      <div class="col-md-6">
-        <div class="text-center">
-          <img src="" height="70%" width="70%" class="rounded rounded-circle" alt="" />
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm sticky-top">
+      <div class="container">
+        <a class="navbar-brand text-danger" href="#">My Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-danger"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" aria-current="page" href="#"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" aria-current="page" href="#"
+                >Project</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" aria-current="page" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="col-md-6">
-        <div class="">
-          <p class="text-muted">Hello I'm</p>
-          <h1 class="text-danger text-uppercase fw-bold">Web Designer</h1>
-          <h4>Yin Thiri Mon</h4>
-          <p class="text-muted">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            reprehenderit praesentium odio in perferendis veniam ab. Itaque
-            aut ullam, alias consectetur distinctio delectus officiis quam,
-            esse beatae dignissimos magni repellendus.
-          </p>
-          <button class="btn btn-danger shadow-sm">My Work</button>
-        </div>
-      </div>
-    </div>
-  </div>
+    </nav>
 
-  <div class="mx-5">
-    <div class="container-lg">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center pt-1 mb-5">
-          <h2 class="fw-bold">About Me</h2>
+    <div class="container-lg mt-5 px-5">
+      <div class="row min-vh-100 align-items-center align-content-center">
+        <div class="col-md-6">
+          <div class="text-center">
+            <img
+              src=""
+              height="70%"
+              width="70%"
+              class="rounded rounded-circle"
+              alt=""
+            />
+          </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-6 mb-5">
-        <div class="row">
-          <div class="col">
-            <h3 class="fs-3 mb-3">Freelancer</h3>
+        <div class="col-md-6">
+          <div class="">
+            <p class="text-muted">Hello I'm</p>
+            <h1 class="text-danger text-uppercase fw-bold">Web Designer</h1>
+            <h4>Yin Thiri Mon</h4>
             <p class="text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Inventore ullam, corrupti suscipit iusto voluptate corporis
-              voluptatum porro. Velit minus delectus quasi tempore, accusamus
-              explicabo atque eveniet architecto ab, numquam amet!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              reprehenderit praesentium odio in perferendis veniam ab. Itaque
+              aut ullam, alias consectetur distinctio delectus officiis quam,
+              esse beatae dignissimos magni repellendus.
             </p>
-          </div>
-        </div>
-
-        <div class="row text-center text-uppercase my-3">
-          <div class="col-4">
-            <h4 class="fw-bold fs-1">100+</h4>
-            <p class="text-muted">Project Completed</p>
-          </div>
-          <div class="col-4">
-            <h4 class="fw-bold fs-1">90+</h4>
-            <p class="text-muted">Happy Clients</p>
-          </div>
-          <div class="col-4">
-            <h4 class="fw-bold fs-1">95+</h4>
-            <p class="text-muted">Positive Reviews</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 d-flex align-items-center">
-            <a href="#" class="text-uppercase btn btn-danger text-white shadow-sm px-3">Download CV</a>
-            <div class="ms-3">
-              <a href="#" class="text-decoration-none"><i class="fa-brands fa-facebook text-dark me-2 fs-4"></i></a>
-              <a href="#" class="text-decoration-none"><i class="fa-brands fa-instagram text-dark me-2 fs-4"></i></a>
-              <a href="#" class="text-decoration-none"><i class="fa-brands fa-twitter text-dark me-2 fs-4"></i></a>
-              <a href="#" class="text-decoration-none"><i class="fa-brands fa-viber text-dark me-2 fs-4"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="mb-4">
-          <h3 class="fs-6">HTML</h3>
-          <div class="progress" style="height: 5px">
-            <div class="progress-bar bg-danger" role="progressbar" aria-label="Example 1px high" style="width: 60%"
-              aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </div>
-        <div class="mb-4">
-          <h3 class="fs-6">CSS</h3>
-          <div class="progress" style="height: 5px">
-            <div class="progress-bar bg-danger" role="progressbar" aria-label="Example 1px high" style="width: 50%"
-              aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </div>
-        <div class="mb-4">
-          <h3 class="fs-6">Javascript</h3>
-          <div class="progress" style="height: 5px">
-            <div class="progress-bar bg-danger" role="progressbar" aria-label="Example 1px high" style="width: 40%"
-              aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </div>
-        <div class="mb-4">
-          <h3 class="fs-6">Bootstrap</h3>
-          <div class="progress" style="height: 5px">
-            <div class="progress-bar bg-danger" role="progressbar" aria-label="Example 1px high" style="width: 80%"
-              aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            <button class="btn btn-danger shadow-sm">My Work</button>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="">
-    <div class="container-lg">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center pt-1 mb-5">
-          <h2 class="fw-bold">What I Do?</h2>
-        </div>
-      </div>
-
-      <div class="row text-center">
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="bg-white shadow-sm rounded p-4">
-            <div class="">
-              <i class="fa fa-user text-danger fs-2"></i>
-            </div>
-            <h5 class="py-2">Web Development</h5>
-            <p class="text-muted">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
-              reprehenderit voluptas, beatae laborum expedita accusamus amet
-              sit pariatur. Repudiandae laborum vitae maxime dolorem neque vel
-              assumenda quaerat, dolores ea et.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="bg-white shadow-sm rounded p-4">
-            <div class="">
-              <i class="fa fa-user text-danger fs-2"></i>
-            </div>
-            <h5 class="py-2">Creative Idea</h5>
-            <p class="text-muted">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
-              reprehenderit voluptas, beatae laborum expedita accusamus amet
-              sit pariatur. Repudiandae laborum vitae maxime dolorem neque vel
-              assumenda quaerat, dolores ea et.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="bg-white shadow-sm rounded p-4">
-            <div class="">
-              <i class="fa fa-user text-danger fs-2"></i>
-            </div>
-            <h5 class="py-2">Photoshop</h5>
-            <p class="text-muted">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
-              reprehenderit voluptas, beatae laborum expedita accusamus amet
-              sit pariatur. Repudiandae laborum vitae maxime dolorem neque vel
-              assumenda quaerat, dolores ea et.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="">
-    <div class="container-lg">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center pt-1 mt-3 mb-5">
-          <h2 class="fw-bold">Latest Project</h2>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div>
-            <img src="./image/img1.jpg" class="w-100 img-thumbnail shadow-sm" alt="" />
-            <h5 class="my-2">Admin Dashboard</h5>
-            <p>
-              <a href="#" class="text-decoration-none text-danger">Live Demo</a>
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div>
-            <img src="./image/img1.jpg" class="w-100 img-thumbnail shadow-sm" alt="" />
-            <h5 class="my-2">Admin Dashboard</h5>
-            <p>
-              <a href="#" class="text-decoration-none text-danger">Live Demo</a>
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div>
-            <img src="./image/img1.jpg" class="w-100 img-thumbnail shadow-sm" alt="" />
-            <h5 class="my-2">Admin Dashboard</h5>
-            <p>
-              <a href="#" class="text-decoration-none text-danger">Live Demo</a>
-            </p>
+    <div class="mx-5">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center pt-1 mb-5">
+            <h2 class="fw-bold">About Me</h2>
           </div>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div>
-            <img src="./image/img2.png" class="w-100 img-thumbnail shadow-sm" alt="" />
-            <h5 class="my-2">Admin Dashboard</h5>
-            <p>
-              <a href="#" class="text-decoration-none text-danger">Live Demo</a>
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div>
-            <img src="./image/img2.png" class="w-100 img-thumbnail shadow-sm" alt="" />
-            <h5 class="my-2">Admin Dashboard</h5>
-            <p>
-              <a href="#" class="text-decoration-none text-danger">Live Demo</a>
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div>
-            <img src="./image/img2.png" class="w-100 img-thumbnail shadow-sm" alt="" />
-            <h5 class="my-2">Admin Dashboard</h5>
-            <p>
-              <a href="#" class="text-decoration-none text-danger">Live Demo</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- freelance project start -->
-  <div class="bg-danger">
-    <div class="container-lg py-5">
-      <div class="row text-white justify-content-center">
-        <div class="col-lg-8 text-center">
-          <p class="mb-4 text-light">Do you have any Projects?</p>
-          <h1 class="mb-3">I'm Available for Freelancer Projects</h1>
-          <a href="" class="btn btn-outline-light">Contact Me</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- our team section  -->
-  <div class="mt-5">
-    <div class="container-lg">
-      <div class="row justify-content-center py-5">
-        <div class="col-lg-8 text-center pt-1 mb-3">
-          <h2 class="fw-bold">Our Team Members</h2>
-        </div>
-      </div>
-
-      <div class="row justify-content-center mx-5">
-        <div class="col-lg-8 bg-white shadow-sm rounded">
-          <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" class="bg-danger" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-              <button type="button" class="bg-danger" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+        <div class="col-md-5 offset-1 mb-5">
+          <div class="row">
+            <div class="col">
+              <h3 class="fs-3 mb-3">Freelancer</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore ullam, corrupti suscipit iusto voluptate corporis
+                voluptatum porro. Velit minus delectus quasi tempore, accusamus
+                explicabo atque eveniet architecto ab, numquam amet!
+              </p>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="d-flex align-items-center pt-2">
-                  <img src="./image/img1.jpg" class="rounded-circle img-thumbnail" width="100px" height="100px" alt="">
-                  <div class="ms-3">
-                    <h5 class="mb-1">Thiri</h5>
-                    <p class="text-muted">Developer</p>
-                  </div>
-                </div>
-                <p class="text-muted mt-3">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, incidunt, dolorum unde, sunt
-                  tempora aliquid facilis porro earum nisi consectetur quia illum veniam corrupti provident assumenda
-                  velit molestias officia ea.
-                </p>
-                <div class="text-danger pb-5">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="d-flex align-items-center pt-2">
-                  <img src="./image/img1.jpg" class="rounded-circle img-thumbnail" width="100px" height="100px" alt="">
-                  <div class="ms-3">
-                    <h5 class="mb-1">Thiri</h5>
-                    <p class="text-muted">Developer</p>
-                  </div>
-                </div>
-                <p class="text-muted mt-3">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, incidunt, dolorum unde, sunt
-                  tempora aliquid facilis porro earum nisi consectetur quia illum veniam corrupti provident assumenda
-                  velit molestias officia ea.
-                </p>
-                <div class="text-danger pb-5">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                </div>
-              </div>
-              <div class="carousel-item">
-<div class="d-flex align-items-center pt-2">
-                  <img src="./image/img1.jpg" class="rounded-circle img-thumbnail" width="100px" height="100px" alt="">
-                  <div class="ms-3">
-                    <h5 class="mb-1">Thiri</h5>
-                    <p class="text-muted">Developer</p>
-                  </div>
-                </div>
-                <p class="text-muted mt-3">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, incidunt, dolorum unde, sunt
-                  tempora aliquid facilis porro earum nisi consectetur quia illum veniam corrupti provident assumenda
-                  velit molestias officia ea.
-                </p>
-                <div class="text-danger pb-5">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                </div>
+          </div>
+
+          <div class="row text-center text-uppercase my-3">
+            <div class="col-4">
+              <h4 class="fw-bold fs-1">100+</h4>
+              <p class="text-muted">Project Completed</p>
+            </div>
+            <div class="col-4">
+              <h4 class="fw-bold fs-1">90+</h4>
+              <p class="text-muted">Happy Clients</p>
+            </div>
+            <div class="col-4">
+              <h4 class="fw-bold fs-1">95+</h4>
+              <p class="text-muted">Positive Reviews</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12 d-flex align-items-center">
+              <a
+                href="#"
+                class="text-uppercase btn btn-danger text-white shadow-sm px-3"
+                >Download CV</a
+              >
+              <div class="ms-3">
+                <a href="#" class="text-decoration-none"
+                  ><i class="fa-brands fa-facebook text-dark me-2 fs-4"></i
+                ></a>
+                <a href="#" class="text-decoration-none"
+                  ><i class="fa-brands fa-instagram text-dark me-2 fs-4"></i
+                ></a>
+                <a href="#" class="text-decoration-none"
+                  ><i class="fa-brands fa-twitter text-dark me-2 fs-4"></i
+                ></a>
+                <a href="#" class="text-decoration-none"
+                  ><i class="fa-brands fa-viber text-dark me-2 fs-4"></i
+                ></a>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="mb-4">
+            <h3 class="fs-6">HTML</h3>
+            <div class="progress" style="height: 5px">
+              <div
+                class="progress-bar bg-danger"
+                role="progressbar"
+                aria-label="Example 1px high"
+                style="width: 60%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="mb-4">
+            <h3 class="fs-6">CSS</h3>
+            <div class="progress" style="height: 5px">
+              <div
+                class="progress-bar bg-danger"
+                role="progressbar"
+                aria-label="Example 1px high"
+                style="width: 50%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="mb-4">
+            <h3 class="fs-6">Javascript</h3>
+            <div class="progress" style="height: 5px">
+              <div
+                class="progress-bar bg-danger"
+                role="progressbar"
+                aria-label="Example 1px high"
+                style="width: 40%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="mb-4">
+            <h3 class="fs-6">Bootstrap</h3>
+            <div class="progress" style="height: 5px">
+              <div
+                class="progress-bar bg-danger"
+                role="progressbar"
+                aria-label="Example 1px high"
+                style="width: 80%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</body>
-<!-- bootstrap js cdn -->
-<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
+    <div class="">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center pt-1 mb-5">
+            <h2 class="fw-bold">What I Do?</h2>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white shadow-sm rounded p-4">
+              <div class="">
+                <i class="fa-solid fa-code text-danger fs-2"></i>
+              </div>
+              <h5 class="py-2">Web Development</h5>
+              <p class="text-muted">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+                reprehenderit voluptas, beatae laborum expedita accusamus amet
+                sit pariatur. Repudiandae laborum vitae maxime dolorem neque vel
+                assumenda quaerat, dolores ea et.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white shadow-sm rounded p-4">
+              <div class="">
+                <i class="fa-regular fa-lightbulb text-danger fs-2"></i>
+              </div>
+              <h5 class="py-2">Creative Idea</h5>
+              <p class="text-muted">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+                reprehenderit voluptas, beatae laborum expedita accusamus amet
+                sit pariatur. Repudiandae laborum vitae maxime dolorem neque vel
+                assumenda quaerat, dolores ea et.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white shadow-sm rounded p-4">
+              <div class="">
+                <i class="fa-solid fa-image text-danger fs-2"></i>
+              </div>
+              <h5 class="py-2">Photoshop</h5>
+              <p class="text-muted">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+                reprehenderit voluptas, beatae laborum expedita accusamus amet
+                sit pariatur. Repudiandae laborum vitae maxime dolorem neque vel
+                assumenda quaerat, dolores ea et.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center pt-1 mt-3 mb-5">
+            <h2 class="fw-bold">Latest Project</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div>
+              <img
+                src="./image/img1.jpg"
+                class="w-100 img-thumbnail shadow-sm"
+                alt=""
+              />
+              <h5 class="my-2">Admin Dashboard</h5>
+              <p>
+                <a href="#" class="text-decoration-none text-danger"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div>
+              <img
+                src="./image/img1.jpg"
+                class="w-100 img-thumbnail shadow-sm"
+                alt=""
+              />
+              <h5 class="my-2">Admin Dashboard</h5>
+              <p>
+                <a href="#" class="text-decoration-none text-danger"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div>
+              <img
+                src="./image/img1.jpg"
+                class="w-100 img-thumbnail shadow-sm"
+                alt=""
+              />
+              <h5 class="my-2">Admin Dashboard</h5>
+              <p>
+                <a href="#" class="text-decoration-none text-danger"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div>
+              <img
+                src="./image/img2.png"
+                class="w-100 img-thumbnail shadow-sm"
+                alt=""
+              />
+              <h5 class="my-2">Admin Dashboard</h5>
+              <p>
+                <a href="#" class="text-decoration-none text-danger"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div>
+              <img
+                src="./image/img2.png"
+                class="w-100 img-thumbnail shadow-sm"
+                alt=""
+              />
+              <h5 class="my-2">Admin Dashboard</h5>
+              <p>
+                <a href="#" class="text-decoration-none text-danger"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div>
+              <img
+                src="./image/img2.png"
+                class="w-100 img-thumbnail shadow-sm"
+                alt=""
+              />
+              <h5 class="my-2">Admin Dashboard</h5>
+              <p>
+                <a href="#" class="text-decoration-none text-danger"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- freelance project start -->
+    <div class="bg-danger">
+      <div class="container-lg py-5">
+        <div class="row text-white justify-content-center">
+          <div class="col-lg-8 text-center">
+            <p class="mb-4 text-light">Do you have any Projects?</p>
+            <h1 class="mb-3">I'm Available for Freelancer Projects</h1>
+            <a href="" class="btn btn-outline-light">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- our team section  -->
+    <div class="mt-5">
+      <div class="container-lg">
+        <div class="row justify-content-center py-5">
+          <div class="col-lg-8 text-center pt-1 mb-3">
+            <h2 class="fw-bold">Our Team Members</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mx-5">
+          <div class="col-lg-8 bg-white shadow-sm rounded">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active bg-danger"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  class="bg-danger"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  class="bg-danger"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="d-flex align-items-center pt-2">
+                    <img
+                      src="./image/img1.jpg"
+                      class="rounded-circle img-thumbnail"
+                      width="100px"
+                      height="100px"
+                      alt=""
+                    />
+                    <div class="ms-3">
+                      <h5 class="mb-1">Thiri</h5>
+                      <p class="text-muted">Developer</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aspernatur, incidunt, dolorum unde, sunt tempora aliquid
+                    facilis porro earum nisi consectetur quia illum veniam
+                    corrupti provident assumenda velit molestias officia ea.
+                  </p>
+                  <div class="text-danger pb-5">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex align-items-center pt-2">
+                    <img
+                      src="./image/img1.jpg"
+                      class="rounded-circle img-thumbnail"
+                      width="100px"
+                      height="100px"
+                      alt=""
+                    />
+                    <div class="ms-3">
+                      <h5 class="mb-1">Thiri</h5>
+                      <p class="text-muted">Developer</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aspernatur, incidunt, dolorum unde, sunt tempora aliquid
+                    facilis porro earum nisi consectetur quia illum veniam
+                    corrupti provident assumenda velit molestias officia ea.
+                  </p>
+                  <div class="text-danger pb-5">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex align-items-center pt-2">
+                    <img
+                      src="./image/img1.jpg"
+                      class="rounded-circle img-thumbnail"
+                      width="100px"
+                      height="100px"
+                      alt=""
+                    />
+                    <div class="ms-3">
+                      <h5 class="mb-1">Thiri</h5>
+                      <p class="text-muted">Developer</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aspernatur, incidunt, dolorum unde, sunt tempora aliquid
+                    facilis porro earum nisi consectetur quia illum veniam
+                    corrupti provident assumenda velit molestias officia ea.
+                  </p>
+                  <div class="text-danger pb-5">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact section  -->
+    <div class="">
+      <div class="container-lg">
+        <div class="row justify-content-center py-5">
+          <div class="col-lg-8 text-center pt-1 mb-3">
+            <h2 class="fw-bold">Contact Me</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-5 justify-content-center">
+            <div class="d-flex mb-3">
+              <div class="user-phone text-danger fs-4 me-2">
+                <i class="fa-solid fa-phone mx-3"></i>
+              </div>
+              <div class="">
+                <div class="fs-5">Phone</div>
+                <div class="text-muted">+95 979 6789  321</div>
+              </div>
+            </div>
+
+            <div class="d-flex mb-3">
+              <div class="user-phone text-danger fs-4 me-2">
+                <i class="fa-solid fa-envelope mx-3"></i>
+              </div>
+              <div class="">
+                <div class="fs-5">Email</div>
+                <div class="text-muted">thiri@gmail.com</div>
+              </div>
+            </div>
+
+            <div class="d-flex mb-3">
+              <div class="user-phone text-danger fs-4 me-2">
+                <i class="fa-solid fa-map mx-3"></i>
+              </div>
+              <div class="">
+                <div class="fs-5">Address</div>
+                <div class="text-muted">Yangon, Myanmar</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <form action="">
+              <div class="row mb-3">
+                <div class="col-lg-6">
+                  <input type="text" placeholder="Your Name" class="form-control form-control-lg border-0 mb-3" name="" id="">
+                </div>
+                <div class="col-lg-6">
+                   <input type="text" placeholder="Your Email" class="form-control form-control-lg border-0" name="" id="">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-lg-12">
+                   <input type="text" placeholder="Subject..." class="form-control form-control-lg border-0" name="" id="">
+                </div>
+              </div>
+
+              <div class="row mb-3">
+                <div class="col-lg-12">
+                  <textarea placeholder="Your Message..." cols="30" rows="10" class="form-control form-control-lg border-0"></textarea>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-12">
+                  <button class="btn btn-danger">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- bootstrap js cdn -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </html>
